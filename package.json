@@ -1,0 +1,22 @@
+{
+  "name": "opustab-merchant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./scripts/run-tests.mjs",
+    "test:dev": "node ./scripts/run-tests.mjs dev",
+    "test:production": "node ./scripts/run-tests.mjs production",
+    "test:new": "node ./scripts/run-tests.mjs new",
+    "test:demo": "node ./scripts/run-tests.mjs demo",
+    "test:env": "node ./scripts/run-tests.mjs env",
+    "test:all": "node ./scripts/run-tests.mjs all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3"
+  }
+}
