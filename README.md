@@ -175,15 +175,6 @@ Repository ini mengikuti pola Page Object Model.
 
 Pendekatan ini dipilih agar perubahan UI tidak memaksa tim mengubah banyak test sekaligus. Jika selector berubah, biasanya cukup memperbarui locator di satu tempat.
 
-## Contoh Alur Login Test
-
-Skenario login yang ada saat ini mengikuti alur berikut:
-
-1. Buka halaman login.
-2. Isi email dan password dari data test.
-3. Klik tombol login.
-4. Validasi bahwa dashboard tampil.
-
 ## Menambahkan Test Baru
 
 Untuk menambahkan test baru, ikuti pola berikut:
